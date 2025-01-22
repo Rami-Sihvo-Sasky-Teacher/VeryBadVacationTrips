@@ -12,8 +12,12 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
             background-color: #f0f0f0;
             color: #333;
+            overflow-x: hidden;
         }
 
         header {
@@ -21,6 +25,7 @@
             color: white;
             text-align: center;
             padding: 1rem;
+            width: 100%;
         }
 
         nav {
@@ -42,9 +47,11 @@
         }
 
         main {
+            flex-grow: 1;
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
+            box-sizing: border-box;
         }
 
         img {
@@ -67,8 +74,6 @@
             color: white;
             text-align: center;
             padding: 1rem;
-            position: relative;
-            bottom: 0;
             width: 100%;
         }
 
@@ -91,8 +96,7 @@
     </nav>
     <main>
         <h2>Discover Kuopio</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Kuopio_panorama.jpg/1280px-Kuopio_panorama.jpg"
-            alt="Kuopio Panorama">
+        <img src="KuopioPictures/Kuopio_market_square_panorama.jpg" alt="Kuopio Panorama">
         <p>Kuopio is a vibrant city located in the heart of the Finnish Lakeland. With a population of approximately
             120,000, it's the eighth largest city in Finland. Known for its stunning natural beauty, rich culture, and
             high quality of life, Kuopio offers a perfect blend of urban amenities and serene landscapes.</p>
