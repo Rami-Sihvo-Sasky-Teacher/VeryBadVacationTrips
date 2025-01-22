@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesoman juna-asema - Todella Huonot Matkat</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            color: black; /* Change text color to black for better readability */
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+        }
+        .full-screen-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .content {
+            z-index: 1;
+            background-color: grey; 
+            padding: 20px; /* Add some padding */
+            border-radius: 10px; /* Optional: Add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
+            max-width: 600px; /* Optional: Limit the width of the content box */
+            margin: 20px; /* Add margin to ensure spacing around the content box */
+        }
+    </style>
+</head>
+<body>
+    <img src="juna-asema.jpg" alt="Juna asema" class="full-screen-image">
+    <div class="content">
+        <header>
+            <h1>Tesoman juna-asema</h1>
+            <p>Tervetuloa Tesoman juna-asemalle!</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="Tesoma-index.html">Etusivu</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Juna-aseman historia</h2>
+                <p>Tesoman juna-asema on avattu vuonna 2020 ja se palvelee alueen asukkaita ja matkailijoita.</p>
+            </section>
+
+            <section>
+                <h2>Palvelut</h2>
+                <p>Juna-asemalta löytyi ennen lipunmyynti, kahvila ja odotustilat. Mutta nekin vietiin pois ja enää siellä voi vain seistä, eli palvelut ovat puuttelliset. Mutta tesomalaiset eivät silti tylsisty siellä.</p>
+            </section>
+
+            <section>
+                <h2>Yhteydet</h2>
+                <p>Tesoman juna-asemalta on suorat yhteydet Tampereen keskustaan ja muihin lähialueisiin. Koska kuka haluaisi tesomalla oikeasti olla?</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
