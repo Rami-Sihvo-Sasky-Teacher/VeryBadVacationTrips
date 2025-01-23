@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place to be Tesoma!</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            color: white;
+        }
+
+        .full-screen-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            position: fixed; 
+            top: 20px; 
+            left: 20px; 
+            width: 300px; 
+            z-index: 1;
+            background-color: grey; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+            color: grey; 
+        }
+    </style>
+</head>
+
+<body>
+    <img src="tesoma-ilmakuva.jpg" alt="Ilmakuva Tesomasta" class="full-screen-image">
+    <div class="content">
+        <header>
+            <h1>Tervetuloa Tesomaan!
+            <p></p>Tamperen helmi, jonne et halua päätyä<p></p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="juna-asema.html">Tesoman juna-asema</a></li>
+                <li><a href="kirjasto.html">Tesoman Kirjasto</a></li>
+                <li><a href="tesoman_kirkko.html">Tesoman Kirkko</a></li>
+                <li><a href="rkioski.html">Tesoman R-Kioski</a></li>
+                <li><a href="">Virheitä löytyy etsikää ne</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Miksi juuri Tesoma?</h2>
+                <p>Tesoma on Tampereen kaupunginosa, joka tarjoaa ainutlaatuisen sekoituksen lähiöelämää,
+                    ostosmahdollisuuksia ja luonnonläheisyyttä. Täällä koet aitoa suomalaista lähiötunnelmaa parhaimmillaan!
+                </p>
+            </section>
+
+            <section>
+                <h2>Tesoman historiaa</h2>
+                <p>Rakennettu 1960- ja 1970-luvuilla, Tesoma edustaa tyypillistä suomalaista lähiörakentamista ei kuitenkaan voita kouvolaa tässä ankeudessa. Alue on
+                    kehittynyt vuosien varrella modernimmaksi asuinalueeksi.</p>
+            </section>
+
+            <section>
+                <h2>Palvelut</h2>
+                <p>Tesomalla on oma kauppakeskus, uimahalli ja kirjasto. Alueelta löytyy kaikki tarvittavat peruspalvelut
+                    viihtyisään asumiseen toiveena jonain päivänä muuttaa pois sieltä.</p>
+            </section>
+
+            <section>
+                <h2>Luonto</h2>
+                <p>Tesoman ympäristössä on useita ulkoilureittejä ja viheralueita. Tesomajärven ympäristö tarjoaa
+                    mahdollisuuksia ulkoiluun ja virkistäytymiseen paikallisten puliukkojen kanssa.</p>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

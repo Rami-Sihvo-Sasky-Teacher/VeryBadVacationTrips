@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikivuori - Annalan nähtävyydet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078a0;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #005f73;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        h1, h2 {
+            color: #005f73;
+        }
+        .info-box {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+        }
+        .activities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .activity-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #005f73;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hikivuori</h1>
+    </header>
+    <nav>
+        <a href="index.html">← Takaisin etusivulle</a>
+    </nav>
+    <main>
+        <img class="hero-image" src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/hikivuori-kaukajarvi.jpg" alt="Hikivuoren näkötorni ja järvimaisema">
+        
+        <div class="info-box">
+            <h2>Tietoa Hikivuoresta</h2>
+            <p>Hikivuori on Annalan alueen korkein kohta, joka kohoaa 156 metriä merenpinnan yläpuolelle. Se on yksi Tampereen seudun suosituimmista näköalapaikoista, josta avautuu henkeäsalpaavat näkymät Kaukajärvelle ja ympäröivään maisemaan.</p>
+            <p>Vuoren huipulla sijaitseva näkötorni tarjoaa esteettömät näkymät joka suuntaan. Erityisen vaikuttava näky on auringonlasku, joka värjää taivaan ja järven pinnan upeisiin väreihin.</p>
+        </div>
+
+        <h2>Aktiviteetit</h2>
+        <div class="activities">
+            <div class="activity-card">
+                <h3>Patikointi</h3>
+                <p>Hikivuorelle johtaa useita hyvin merkittyjä polkuja. Reitit soveltuvat sekä aloittelijoille että kokeneemmille patikoijille. Matka huipulle kestää noin 30-45 minuuttia.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Valokuvaus</h3>
+                <p>Hikivuori on erityisen suosittu valokuvaajien keskuudessa. Parhaat valokuvaushetket ovat auringonnousun ja -laskun aikaan, jolloin valo on pehmeimmillään.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Näkötorni</h3>
+                <p>Vuoren huipulla sijaitseva näkötorni on avoinna ympäri vuoden. Tornista voi ihailla maisemia kaikkina vuodenaikoina, ja se tarjoaa suojaa myös sateen yllättäessä.</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h2>Käytännön tietoa</h2>
+            <ul>
+                <li>Pysäköinti: Hikivuoren juurella on ilmainen pysäköintialue</li>
+                <li>Vaativuus: Keskitaso, jyrkkä nousu</li>
+                <li>Kesto: 30-45 min ylös, 20-30 min alas</li>
+                <li>Varusteet: Tukevat kengät suositeltavat</li>
+                <li>Saavutettavuus: Polku ei sovellu liikuntarajoitteisille</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h2>Parhaat vierailuajat</h2>
+            <p>Hikivuori on vaikuttava kohde ympäri vuoden, mutta erityisen kaunis se on:</p>
+            <ul>
+                <li>Syksyllä ruskan aikaan (syys-lokakuu)</li>
+                <li>Kesäiltoina auringonlaskun aikaan</li>
+                <li>Kirkkaana talvipäivänä, kun maisema on lumen peitossa</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Annala Matkailu</p>
+    </footer>
+</body>
+</html>
