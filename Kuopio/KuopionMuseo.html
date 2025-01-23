@@ -8,6 +8,24 @@
 
 
     <style>
+        nav {
+            background-color: #2c3e50;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #34495e;
+        }
+
         .nav-button {
             display: inline-block;
             padding: 10px 20px;
@@ -44,17 +62,11 @@
             padding: 0;
         }
 
-        .container-for-button {
-            max-width: 100%;
-            margin: 0 auto;
-            padding: 25px;
-            background-color: #2c3e50;
-            /* White background with transparency */
-            border-radius: 0px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-
-
+        header {
+            background-color: #3a5795;
+            color: white;
+            text-align: center;
+            padding: 1rem;
         }
 
         .container {
@@ -72,11 +84,16 @@
             /* Center the text */
         }
 
-        h1,
-        h2,
-        h3 {
+        header h1 {
+            color: white;
+            /* Header heading color */
+        }
+
+        .container h1,
+        .container h2,
+        .container h3 {
             color: #0056b3;
-            /* Heading color */
+            /* Container heading color */
         }
 
         p {
@@ -86,11 +103,15 @@
 </head>
 
 <body>
-    <div class="container-for-button">
-        <nav>
-            <a href="Kuopio.html" class="nav-button">Home</a>
-        </nav>
-    </div>
+    <header>
+        <h1>Welcome to Kuopio</h1>
+    </header>
+    <nav>
+        <a href="../index.htm">Index</a>
+        <a href="Kuopio.html">Home</a>
+        <a href="hotels.html">Hotels</a>
+        <a href="KuopionMuseo.html">Kuopion museo</a>
+    </nav>
     <div class="container">
 
         <h1>Kuopion Museo</h1>
