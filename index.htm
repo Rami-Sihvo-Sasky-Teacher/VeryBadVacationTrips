@@ -17,6 +17,16 @@
             z-index: -1;
         }
 
+        h1,
+        p,
+        a,
+        a:hover,
+        h2 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: #ffcc00;
+
+        }
+
         .container {
             text-align: center;
         }
@@ -25,14 +35,16 @@
             display: inline-block;
             padding: 15px 30px;
             font-size: 24px;
-            color: #fff;
-            background-color: #3a5795;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.6);
             text-decoration: none;
             border-radius: 50px;
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
             z-index: 1;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .fancy-link:before {
@@ -56,6 +68,7 @@
         .fancy-link:hover {
             box-shadow: 0 5px 15px rgba(58, 87, 149, 0.4);
             transform: translateY(-3px);
+            background-color: rgba(0, 0, 0, 0.8);
         }
 
         .fancy-link:active {
